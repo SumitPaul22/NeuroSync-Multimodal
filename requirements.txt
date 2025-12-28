@@ -1,0 +1,10 @@
+flask
+torch
+torchvision
+torchaudio
+transformers
+timm==0.9.10
+hsemotion
+librosa
+opencv-python
+numpy
