@@ -7,15 +7,6 @@
 ![Architecture](https://img.shields.io/badge/Architecture-Multimodal%20Fusion-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## Demo Preview
-
-| **Live Scanning Phase** | **Analysis & Fusion Result** |
-|:---:|:---:|
-| <img src="screenshots/1.png" alt="Scanning Interface" width="400"/> | <img src="screenshots/2.png" alt="Happy Result" width="400"/> |
-| *Real-time face tracking & audio sampling* | *Deep Fusion detects "Happy" with 92% confidence* |
-
-> *Note: Add your screenshots to a folder named `screenshots` and name them `scan.png` and `result.png`.*
-
 ---
 
 ## Overview
@@ -98,6 +89,11 @@ The model was trained on the combined **RAVDESS** and **CREMA-D** datasets (~12,
 *   **Inference Speed:** ~0.15s on GPU / ~0.8s on CPU.
 
 ---
+## Demo Preview
 
+| **Live Scanning Phase** | **Analysis & Fusion Result** |
+|:---:|:---:|
+| <img src="Screenshots/1.png" alt="Scanning Interface"/> | <img src="Screenshots/2.png" alt="Happy Result"/> |
+| *Real-time face tracking & audio sampling* | *Deep Fusion detects "Happy" with 92% confidence* |
 ---
 *Built with PyTorch, Flask, and Hugging Face Transformers.*
